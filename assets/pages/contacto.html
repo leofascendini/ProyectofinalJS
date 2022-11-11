@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>proyecto</title>
+</head>
+
+<body>
+  <header>
+    <a href="/index.html" class="logo">
+      <img src="../img/logo/vanslogo.png" alt="logo de la compañia">
+    </a>
+    <nav>
+      <div class="menu">
+        <a href="/index.html" class="nav-link">inicio</a>
+        <a href="" class="nav-link">contacto</a>
+        <a id="verCarrito" class="ver-carrito">🛒 <span id="cantidadCarrito" class="cantidad-carrito"></span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <img class="cuadrados" src="../img/logo/cuadrados.jpg" alt="">
+
+    <div id="modal-container" class="modal-container"></div>
+    
+
+    <div data-aos="fade-up" data-aos-duration="1500" class="row justify-content-around m-4">
+        <h2 class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">Completa los datos y nos pondremos en contacto:</h2>
+            <form class="row justify-content-around">
+                <input class="col-12 col-sm-9 col-md-8 col-lg-6 m-2" class class="name" type="text" name="name" placeholder="Nombre" required>
+                <input class="col-12 col-sm-9 col-md-8 col-lg-6 m-2" type="text" name="lastname" placeholder="Apellido" required>
+                <input class="col-12 col-sm-9 col-md-8 col-lg-6 m-2" type="email" name="email" placeholder="Email" required>
+                <textarea class="col-12 col-sm-9 col-md-8 col-lg-6 m-2" name="comment" cols="30" rows="10" placeholder="En que podemos ayudarte"></textarea>
+                <button class="col-12 col-sm-9 col-md-8 col-lg-6 m-2" type="submit" class="details__button">enviar</button>
+            </form>
+      </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="../js/productos.js"></script>
+    <script src="../js/carrito.js"></script>
+  <script src="./assets/js/main.js"></script>
+  </body>
+  </html>
+  
